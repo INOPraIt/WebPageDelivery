@@ -1,0 +1,838 @@
+.containerLayoutSetka {
+  width: 100%;
+
+  .groupOneLayoutSetka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    .blockOnesLayoutSetcka {
+      height: 440px;
+      background-color: rgba(250, 235, 215, 0);
+      width: 49.5%;
+
+      .blockText {
+        height: 220px;
+        
+        .textZabota {
+          margin-left: 30px;
+          font-size: 55px;
+          font-weight: 900;
+          line-height: 40px;
+          color: #200300;
+          // font-family: "YS Text Regular Regular";
+          font-family: "Rubik", sans-serif;
+        }
+      }
+
+      .minimumConnect {
+        height: 220px;
+        background-color: white;
+        display: flex;
+        border-radius: 20px;
+
+        .textMinimumConnect {
+          margin-top: 60px;
+          margin-left: 25px;
+
+          .minimumConnectTextPOne {
+            font-size: 23px;
+            font-weight: 900;
+            color: #200300;
+            font-family: "Rubik", sans-serif;
+          }
+
+          .minimumConnectTextPTwo {
+            font-size: 12px;
+            font-weight: 400;
+            color: #200300;
+            font-family: "Rubik", sans-serif;
+          }
+        }
+
+        .imgMinimumConnect {
+          width: 70%;
+          margin-top: 50px;
+          margin-left: 40px;
+        }
+      }
+    }
+
+    .bigBlockGroupOne {
+      height: 440px;
+      background-color: rgb(255, 255, 255);
+      width: 49.5%;
+      border-radius: 20px;
+
+
+      .imgWallet {
+        width: 100%;
+        position: relative;
+        .imgWallet {
+          position: absolute;
+          width: 90%;
+          margin-top: -80px;
+          margin-left: 100px;
+        }
+      }
+      
+      .divTextBigBlockGroupOne {
+        margin-top: 340px;
+        margin-left: 25px;
+
+        .minimumConnectTextPOne {
+          font-size: 23px;
+          font-weight: 900;
+          color: #200300;
+          font-family: "Rubik", sans-serif;
+        }
+
+        .minimumConnectTextPTwo {
+          font-size: 12px;
+          font-weight: 400;
+          color: #200300;
+          font-family: "Rubik", sans-serif;
+        }
+      }
+    }
+  }
+
+  .groupTwoLayoutSetka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .leftBlockgroupTwoLayoutSetka {
+      width: 49.5%;
+
+      .rentalDiscountsBlock {
+        height: 330px;
+        background-color: white;
+        display: flex;
+        border-radius: 20px;
+
+        .textRentalDiscountsBlock {
+          margin-left: 20px;
+          margin-top: 170px;
+          width: 90%;
+          z-index: 3;
+        }
+      }
+
+      .rentalDiscountsBlockImg {
+        position: relative;
+        width: 90%;
+        .rentalDiscountsBlockImgImage {
+          margin-top: 50px;
+          position: absolute;
+          margin-left: -40px;
+          width: 100%;
+          z-index: 4;
+        }
+      }
+
+      .discountsInEat {
+        height: 160px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+      }
+    }
+
+    .rightBlockgroupTwoLayoutSetka {
+      width: 49.5%;
+
+      .tipsBlock {
+        height: 160px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+      }
+
+      .bonusReferalBlock {
+        background-color: rgb(255, 235, 175);
+        border-radius: 20px;
+        height: 330px;
+        margin-top: 10px;
+        display: flex;
+        .textBonusReferal {
+          margin-left: 30px;
+          padding-top: 180px;
+        }
+
+        .referalImage {
+          width: 100%;
+          position: relative;
+          .referalImg {
+            position: absolute;
+            width: 100%;
+            margin-top: -50px;
+            margin-left: -30px;
+          }
+        }
+      }
+
+      
+    }
+  }
+
+  .groupThreeLayoutSetka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .leftBlockgroupThreeLayoutSetka {
+      display: flex;
+      width: 49.5%;
+      align-items: center;
+      background-color: rgb(255, 235, 175);
+      border-radius: 20px;
+      height: 160px;
+
+      .blockleftBlockgroupThreeLayoutSetka {
+        padding-left: 30px;
+      }
+    }
+    .rightBlockgroupThreeLayoutSetka {
+      display: flex;
+      width: 49.5%;
+      align-items: center;
+      background-color: white;
+      border-radius: 20px;
+      height: 160px;
+
+      .blockrightBlockgroupThreeLayoutSetka {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .btnMoreAdvantages {
+    width: 100%;
+    margin-top: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+
+    .textBtnMore {
+      width: 70%;
+      text-align: right;
+      font-size: 23px;
+      font-weight: 900;
+      color: #200300;
+      font-family: "Rubik", sans-serif;
+    }
+    .spanMoreBtnIcon {
+      width: 10%;
+      margin-left: auto;
+
+      .imgArrow {
+        width: 25px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  .groupFourLayoutSetka {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+
+    .leftBlockgroupFourLayoutSetka {
+      width: 49.5%;
+
+      .programReferal {
+        height: 430px;
+        background-color: rgb(255, 235, 175);
+        border-radius: 20px;
+
+        .imageBlockProgramReferal {
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          .imgProgramReferal {
+            position: absolute;
+            width: 60%;
+            margin-top: -45px;
+          }
+        }
+
+        .textBlockProgramReferal {
+          margin-top: 250px;
+          margin-left: 30px;
+        }
+
+        .moreBtnProgramReferal {
+          width: 185px;
+          height: 55px;
+          text-align: center;
+          font-size: 23px;
+          font-weight: 900;
+          color: #200300;
+          font-family: "Rubik", sans-serif;
+          border: none;
+          background-color: rgb(254, 215, 0);
+          border-radius: 15px;
+          margin-left: 30px;
+          margin-top: 10px;
+        }
+      }
+
+      .flexibleScheduleBlock {
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        margin-top: 10px;
+        display: flex;
+
+        .textFlexibleScheduleBlock {
+          width: 80%;
+          margin-left: 30px;
+          margin-top: 150px;
+        }
+
+        .flexibleScheduleBlockImage {
+
+          .imgflexibleScheduleBlockImage {
+            width: 85%;
+            margin-top: 30px;
+          } 
+        }
+      }
+    }
+
+    .rightBlockgroupFourLayoutSetka {
+      width: 49.5%;
+
+      .blockSupport {
+        height: 260px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        display: flex;
+
+        .textblockSupport {
+          margin-top: 140px;
+          margin-left: 30px;
+          width: 100%;
+        }
+
+        .blockSupportImage {
+          
+          .blockSupportImg {
+            width: 100%;
+            margin-top: 20px;
+            margin-left: -30px;
+          }
+        }
+      }
+
+      .blockInsurance {
+        height: 280px;
+        background-color: rgb(255, 235, 175);
+        border-radius: 20px;
+        display: flex;
+        margin-top: 10px;
+
+        .textblockInsurance {
+          margin-top: 140px;
+          margin-left: 30px;
+          width: 100%;
+        }
+
+        .blockInsuranceImage {
+
+          .blockInsuranceImg {
+            width: 90%;
+            margin-top: 20px;
+            margin-left: -50px;
+          }
+        }
+      }
+
+      .blockCouch {
+        margin-left: -100%;
+        width: 200%;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+
+        .textblockCouch {
+          margin-left: 15px !important;
+        }
+      }
+    }
+  }
+}
+
+.minimumConnectTextPOne {
+  font-size: 20px !important;
+  font-weight: 900;
+  color: #200300;
+  font-family: "Rubik", sans-serif;
+}
+
+.minimumConnectTextPTwo {
+  font-size: 12px;
+  font-weight: 400;
+  color: #200300;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  
+  .imgWallet {
+    width: 100%;
+    position: relative;
+    .imgWallet {
+      position: absolute;
+      width: 70% !important;
+      margin-top: -80px;
+      margin-left: 100px;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+
+  .containerLayoutSetka {
+    width: 90% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-left: 5% !important;
+  }
+  .groupOneLayoutSetka { 
+    height: 350px !important;
+    margin-top: 20px !important;
+  }
+  
+  .textZabota {
+    margin-left: 0px !important;
+    font-size: 30px !important;
+    font-weight: 900;
+    line-height: 40px;
+    color: #200300;
+    // font-family: "YS Text Regular Regular";
+    font-family: "Rubik", sans-serif;
+  }
+
+  .minimumConnect { 
+    flex-direction: column !important;
+  }
+
+  .bigBlockGroupOne { 
+    height: 200px !important;
+    margin-top: 150px;
+
+    .imgWallet {
+      width: 100%;
+      position: relative;
+      .imgWallet {
+        position: absolute;
+        width: 70% !important;
+        margin-top: -60px !important;
+        margin-left: 30px !important;
+      }
+    }
+
+    .divTextBigBlockGroupOne {
+      margin-top: 100px !important;
+      margin-left: 20px !important;
+
+      .minimumConnectTextPOne {
+        font-size: 20px !important;
+        font-weight: 900;
+        color: #200300;
+        font-family: "Rubik", sans-serif;
+      }
+
+      .minimumConnectTextPTwo {
+        font-size: 12px;
+        font-weight: 400;
+        color: #200300;
+        font-family: "Rubik", sans-serif;
+        width: 90% !important;
+      }
+    }
+  }
+
+  
+  .blockText {
+    height: 100px !important;
+    
+    .textZabota {
+      margin-left: 30px;
+      font-size: 25px !important;
+      font-weight: 900;
+      line-height: 40px;
+      color: #200300;
+      font-family: "Rubik", sans-serif;
+    }
+  }
+
+  .minimumConnect { 
+    .textMinimumConnect {
+      margin-top: 10px !important;
+    }
+
+    .imgMinimumConnect {
+      margin-top: 10px !important;
+      margin-left: 30px !important;
+    }
+  }
+
+  
+  .tipsBlock {
+    height: 100px !important;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+  }
+
+  .rentalDiscountsBlock {
+    height: 200px !important;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column !important;
+
+    .textRentalDiscountsBlock {
+      margin-left: 20px;
+      margin-top: 20px !important;
+      width: 90%;
+      z-index: 3;
+    }
+
+    .rentalDiscountsBlockImg {
+      position: relative;
+      width: 90%;
+      .rentalDiscountsBlockImgImage {
+        margin-top: 10px !important;
+        position: absolute;
+        margin-left: 50px !important;
+        width: 55% !important; 
+        z-index: 4;
+      }
+    }
+  }
+
+  .bonusReferalBlock {
+    background-color: rgb(255, 235, 175);
+    border-radius: 20px;
+    height: 200px !important;
+    margin-top: 80px !important;
+    display: flex;
+    flex-direction: column;
+    .textBonusReferal {
+      margin-left: 15px !important;
+      padding-top: 70px !important;
+    }
+
+    .referalImage {
+      width: 100%;
+      position: relative;
+      .referalImg {
+        position: absolute;
+        width: 60% !important;
+        margin-top: -240px !important;
+        margin-left: 50px !important;
+      }
+    }
+  }
+
+  .textMinimumConnect {
+    margin-top: 60px;
+    margin-left: 15px !important;
+  }
+
+  .groupThreeLayoutSetka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-direction: column !important;
+
+    .leftBlockgroupThreeLayoutSetka {
+      display: flex;
+      width: 100% !important;
+      align-items: center;
+      background-color: rgb(255, 235, 175);
+      border-radius: 20px;
+      height: 100px !important;
+
+      .blockleftBlockgroupThreeLayoutSetka {
+        padding-left: 30px;
+      }
+    }
+    .rightBlockgroupThreeLayoutSetka {
+      display: flex;
+      width: 100% !important;
+      align-items: center;
+      background-color: white;
+      border-radius: 20px;
+      height: 100px !important;
+      margin-top: 10px;
+
+      .blockrightBlockgroupThreeLayoutSetka {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .btnMoreAdvantages { 
+    .textBtnMore {
+      font-size: 20px !important;
+      white-space: nowrap;
+      margin-left: 10% !important;
+    }
+  }
+
+  .discountsInEat {
+    height: 160px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px !important;
+  }
+  
+  .tipsBlock {
+    height: 160px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px !important;
+  }
+
+  .leftBlockgroupFourLayoutSetka { 
+    height: 400px !important;
+  }
+
+  .programReferal {
+    height: 270px !important;
+    background-color: rgb(255, 235, 175);
+    border-radius: 20px;
+
+    .imageBlockProgramReferal {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .imgProgramReferal {
+        position: absolute;
+        width: 60%;
+        margin-top: -45px;
+      }
+    }
+
+    
+    .textBlockProgramReferal {
+      margin-top: 0px !important;
+      margin-left: 15px !important;
+      padding-top: 20px !important;
+    }
+
+    .moreBtnProgramReferal {
+      width: 90% !important;
+      height: 35px !important;
+      text-align: center;
+      font-size: 15px !important;
+      font-weight: 900;
+      color: #200300;
+      font-family: "Rubik", sans-serif;
+      border: none;
+      background-color: rgb(254, 215, 0);
+      border-radius: 10px !important;
+      margin-left: 5% !important;
+      margin-top: 10px;
+    }
+
+    .imageBlockProgramReferal {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .imgProgramReferal {
+        position: absolute;
+        width: 50% !important;
+        margin-top: 20px !important;
+      }
+    }
+  }
+
+  
+  .blockSupport {
+    height: 220px !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px !important;
+
+    .textblockSupport {
+      margin-top: 70px !important;
+      margin-left: 15px !important;
+      width: 100%;
+    }
+
+    .blockSupportImage {
+      margin-top: -150px !important;
+      .blockSupportImg {
+        width: 60% !important;
+        margin-top: -420px !important;
+        margin-left: 20px !important;
+      }
+    }
+  }
+
+  .flexibleScheduleBlock {
+    height: 200px !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 160px !important;
+    display: flex;
+    flex-direction: column !important;
+
+    .textFlexibleScheduleBlock {
+      width: 80%;
+      margin-left: 15px !important;
+      margin-top: 20px !important;
+    }
+
+    .flexibleScheduleBlockImage {
+
+      .imgflexibleScheduleBlockImage {
+        width: 60% !important;
+        margin-top: 15px !important;
+        margin-left: 40px !important;
+      } 
+    }
+  }
+
+  .blockInsurance {
+    height: 240px !important;
+    background-color: rgb(255, 235, 175);
+    border-radius: 20px;
+    display: flex;
+    margin-top: 100px !important;
+    flex-direction: column;
+
+    .textblockInsurance {
+      margin-top: 50px !important;
+      margin-left: 15px !important;
+      width: 100%;
+    }
+
+    .blockInsuranceImage {
+      margin-top: -190px !important;
+
+      .blockInsuranceImg {
+        width: 50% !important;
+        margin-top: -190px !important;
+        margin-left: 50px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .bonusReferalBlock {
+    background-color: rgb(255, 235, 175);
+    border-radius: 20px;
+    height: 230px !important;
+    margin-top: 10px;
+    display: flex;
+    .textBonusReferal {
+      margin-left: 30px;
+      padding-top: 180px;
+    }
+
+    .referalImage {
+      width: 100%;
+      position: relative;
+      .referalImg {
+        position: absolute;
+        width: 100%;
+        margin-top: -50px;
+        margin-left: -30px;
+      }
+    }
+  }
+
+  .blockSupport {
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+
+    .textblockSupport {
+      margin-top: 140px;
+      margin-left: 30px;
+      width: 90% !important;
+    }
+
+    .blockSupportImage {
+      
+      .blockSupportImg {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -30px;
+      }
+    }
+  }
+
+  
+  .btnMoreAdvantages {
+    width: 100%;
+    margin-top: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+
+    .textBtnMore {
+      width: 60% !important;
+      text-align: right;
+      font-size: 18px !important;
+      font-weight: 900;
+      color: #200300;
+      font-family: "Rubik", sans-serif;
+    }
+    .spanMoreBtnIcon {
+      width: 10%;
+      margin-left: 15% !important;
+
+      .imgArrow {
+        width: 25px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+}

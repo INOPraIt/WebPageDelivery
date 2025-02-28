@@ -1,0 +1,260 @@
+.containerBecomingCourierIsEasy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .headerBecomingCourierIsEasy {
+    border: none;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 5px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 120px;
+  }
+
+  .blocksPunkts {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    
+    .groupOne { 
+      width: 49.5%;
+      .blockOnesPunkts {
+        width: 100%;
+        height: 230px;
+        background-color: white;
+        border-radius: 20px;
+      }
+
+      .blockTwoPunkts {
+        width: 100%;
+        height: 230px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 10px;
+      }
+
+      .blockImagePunkts {
+        position: absolute;
+        .blockImgPunkts {
+          width: 35%;
+          margin-left: 270px;
+          margin-top: -30px;
+        }
+      }
+      
+    }
+
+    .groupTwo {
+      width: 49.5%;
+      .blockThreePunkts {
+        width: 100%;
+        height: 230px;
+        background-color: white;
+        border-radius: 20px;
+      }
+  
+      .blockFoutPunkts {
+        width: 100%;
+        height: 230px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .btnBecomingCouriers {
+    width: 50%;
+    margin-top: 50px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(254, 216, 0);
+    color: #200300;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    border: none;
+  }
+}
+
+.numberIndexCard {
+  font-size: 25px;
+  font-weight: 900;
+  color: #200300;
+  font-family: "Rubik", sans-serif;
+}
+
+.minimumConnectTextPOne {
+  font-size: 23px;
+  font-weight: 500;
+  color: #200300;
+  font-family: "Rubik", sans-serif;
+}
+
+.greytext {
+  font-size: 18px;
+  font-weight: 400;
+  color: #929292;
+  margin-top: 5px;
+  font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .blocksPunkts { 
+    flex-direction: column;
+    width: 90% !important;
+  }
+
+  .groupOne { 
+    width: 100% !important;
+
+    .blockOnesPunkts {
+      width: 100%;
+      height: 280px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+    }
+
+    .blockTwoPunkts {
+      width: 100%;
+      height: 280px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  }  
+  .groupTwo { 
+    width: 100% !important;
+    margin-top: 10px !important;
+
+    .blockThreePunkts {
+      width: 100%;
+      height: 280px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+    }
+
+    .blockFoutPunkts {
+      width: 100%;
+      height: 280px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  }
+  
+  .headerBecomingCourierIsEasy { 
+    text-align: left !important;
+  }
+
+  .numberIndexCard {
+    font-size: 50px;
+    font-weight: 900;
+    color: #200300;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .minimumConnectTextPOne {
+    font-size: 40px;
+    font-weight: 500;
+    color: #200300;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .blockImagePunkts {
+    position: absolute;
+    .blockImgPunkts {
+      width: 40% !important;
+      margin-left: 60% !important;
+      margin-top: -300px !important;
+    }
+  }
+
+  .btnBecomingCouriers { 
+    margin-top: 700px !important;
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 500px) { 
+  .headerBecomingCourierIsEasy {
+    border: none;
+    font-size: 30px !important;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px !important;
+  }
+
+  .numberIndexCard {
+    font-size: 25px;
+    font-weight: 900;
+    color: #200300;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .groupOne { 
+    width: 100% !important;
+
+    .blockOnesPunkts {
+      width: 100%;
+      height: 150px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+    }
+
+    .blockTwoPunkts {
+      width: 100%;
+      height: 150px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  }  
+  .groupTwo { 
+    width: 100% !important;
+    margin-top: 10px !important;
+
+    .blockThreePunkts {
+      width: 100%;
+      height: 150px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+    }
+
+    .blockFoutPunkts {
+      width: 100%;
+      height: 150px !important;
+      background-color: rgb(255, 235, 175) !important;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  }
+
+  .blockImagePunkts {
+    position: absolute;
+    margin-top: -50px !important;
+    .blockImgPunkts {
+      width: 35%;
+      margin-left: 200px !important;
+      margin-top: -250px !important;
+    }
+  }
+
+  .btnBecomingCouriers {
+    width: 50%;
+    margin-top: 160px !important;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(254, 216, 0);
+    color: #200300;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    border: none;
+  }
+}

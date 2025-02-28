@@ -1,0 +1,130 @@
+@import url('https://db.onlinewebfonts.com/c/23a02e8af5ef33a9b496dd524401550f?family=YS+Text+Regular+Regular');
+
+.containerNav {
+  background-color: rgb(255, 250, 246);
+  z-index: 15 !important;
+  width: 880px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 0px 0px 35px 35px;
+  position: fixed;
+
+  .cointainerNavLink {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 5%;
+
+    .linkNavbar {
+      font-family: "YS Text Regular Regular";
+      font-weight: 600;
+      font-size: 17px;
+      color: black;
+    }
+  }
+
+  .buttonBlock {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+
+    .btnDelivery {
+      width: 70%;
+      background-color: rgb(254, 215, 0);
+      color: black;
+      border: none;
+      height: 45px;
+      border-radius: 15px;
+      text-align: center;
+      font-family: "YS Text Regular Regular";
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+  }
+
+}
+
+.openMenuNur {
+  position: absolute !important;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  background-color: rgba(0, 0, 0, 0.582);
+  height: 900px;
+  margin-top: 25px;
+  z-index: 9;
+
+  .openMenu {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    background-color: gold;
+    height: 136px;
+    margin-top: 20px;
+    margin-left: 50%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    .blockOne {
+      width: 90%;
+      background-color: white;
+      margin-left: 10%;
+      height: 60px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      color: black;
+      font-family: "YS Text Regular Regular";
+      font-weight: 500;
+      border-radius: 10px 0 0 10px;
+    }
+  }
+}
+
+
+
+.containerMobileNav {
+  display: flex;
+  justify-content: space-between;
+
+  .imgLogo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    .imageLogo {
+      width: 80%;
+    }
+  }
+
+  .imgMenu {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+
+    .imageMenu {
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .containerNav { 
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .containerNav { 
+    position: fixed !important;
+    width: 100% !important;
+    height: 80px !important;
+    background-color: gold;
+    z-index: 15 !important;
+  }
+}
