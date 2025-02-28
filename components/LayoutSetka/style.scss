@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'YFO';
+  src: url('../../assets/fonts/text-geo-black.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFT';
+  src: url('../../assets/fonts/text-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .containerLayoutSetka {
   width: 100%;
 
@@ -14,13 +29,12 @@
         height: 220px;
         
         .textZabota {
-          margin-left: 30px;
           font-size: 55px;
           font-weight: 900;
           line-height: 40px;
           color: #200300;
           // font-family: "YS Text Regular Regular";
-          font-family: "Rubik", sans-serif;
+          font-family: "YFO", sans-serif;
         }
       }
 
@@ -36,16 +50,16 @@
 
           .minimumConnectTextPOne {
             font-size: 23px;
-            font-weight: 900;
+            font-weight: 700;
             color: #200300;
-            font-family: "Rubik", sans-serif;
+            font-family: "YFO", sans-serif;
           }
 
           .minimumConnectTextPTwo {
             font-size: 12px;
             font-weight: 400;
             color: #200300;
-            font-family: "Rubik", sans-serif;
+            font-family: "YFT", sans-serif;
           }
         }
 
@@ -83,14 +97,14 @@
           font-size: 23px;
           font-weight: 900;
           color: #200300;
-          font-family: "Rubik", sans-serif;
+          font-family: "YFO", sans-serif;
         }
 
         .minimumConnectTextPTwo {
           font-size: 12px;
           font-weight: 400;
           color: #200300;
-          font-family: "Rubik", sans-serif;
+          font-family: "YFO", sans-serif;
         }
       }
     }
@@ -229,7 +243,7 @@
       font-size: 23px;
       font-weight: 900;
       color: #200300;
-      font-family: "Rubik", sans-serif;
+      font-family: "YFO", sans-serif;
     }
     .spanMoreBtnIcon {
       width: 10%;
@@ -280,7 +294,7 @@
           font-size: 23px;
           font-weight: 900;
           color: #200300;
-          font-family: "Rubik", sans-serif;
+          font-family: "YFO", sans-serif;
           border: none;
           background-color: rgb(254, 215, 0);
           border-radius: 15px;
@@ -382,7 +396,7 @@
   font-size: 20px !important;
   font-weight: 900;
   color: #200300;
-  font-family: "Rubik", sans-serif;
+  font-family: "YFO", sans-serif;
 }
 
 .minimumConnectTextPTwo {
@@ -390,7 +404,7 @@
   font-weight: 400;
   color: #200300;
   margin-top: 10px;
-  font-family: "Rubik", sans-serif;
+  font-family: "YFT", sans-serif;
 }
 
 @media screen and (max-width: 800px) {

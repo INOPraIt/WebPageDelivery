@@ -157,7 +157,7 @@ export default () => {
       </div>
       <button className='btnBecomingCouriers'>
         <a style={{ textDecoration: "none", color: "black" }} href='https://reg.eda.yandex.ru/?advertisement_campaign=seo_eda'>
-          стать курьером
+          заполнить анкету
         </a>
       </button>
     </div>

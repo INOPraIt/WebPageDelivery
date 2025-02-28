@@ -1,3 +1,46 @@
+@font-face {
+  font-family: 'YFO';
+  src: url('../../assets/fonts/text-geo-black.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFT';
+  src: url('../../assets/fonts/text-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFTh';
+  src: url('../../assets/fonts/text-geo-heavy.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFF';
+  src: url('../../assets/fonts/text-geo-medium.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFFi';
+  src: url('../../assets/fonts/text-geo-bold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFS';
+  src: url('../../assets/fonts/text-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .containerBecomingCourierIsEasy {
   display: flex;
   flex-direction: column;
@@ -9,7 +52,7 @@
     font-weight: 600;
     color: #ffffff;
     margin-top: 5px;
-    font-family: "Rubik", sans-serif;
+    font-family: "YFO", sans-serif;
     margin-top: 120px;
   }
 
@@ -76,7 +119,7 @@
     color: #200300;
     font-size: 25px;
     font-weight: 600;
-    font-family: "Rubik", sans-serif;
+    font-family: "YFO", sans-serif;
     border: none;
   }
 }
@@ -85,14 +128,14 @@
   font-size: 25px;
   font-weight: 900;
   color: #200300;
-  font-family: "Rubik", sans-serif;
+  font-family: "YFO", sans-serif;
 }
 
 .minimumConnectTextPOne {
   font-size: 23px;
   font-weight: 500;
   color: #200300;
-  font-family: "Rubik", sans-serif;
+  font-family: "YFFi", sans-serif;
 }
 
 .greytext {
@@ -100,7 +143,7 @@
   font-weight: 400;
   color: #929292;
   margin-top: 5px;
-  font-family: "Rubik", sans-serif;
+  font-family: "YFS", sans-serif;
 }
 
 @media screen and (max-width: 800px) {

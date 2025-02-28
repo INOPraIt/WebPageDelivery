@@ -11,7 +11,6 @@ import chat from '../../assets/images/chat.png';
 import insurance from '../../assets/images/insurance.png';
 
 export default ({ open, isOpen }) => {
-  // const [isOpen, setIsOpen] = React.useState(false);
 
   const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
   const [screenHeight, setScreenHeight] = React.useState(window.innerHeight);
@@ -338,7 +337,7 @@ export default ({ open, isOpen }) => {
                   </div>
                 </div>
                 <div className='blockCouch' style={{width: '100%', marginLeft: '0%', height: '160px'}}>
-                  <div className='textblockCouch'>
+                  <div className='textblockCouch' style={{paddingLeft: '20px'}}>
                     <p className='minimumConnectTextPOne'>
                       обучение
                     </p>
