@@ -368,7 +368,8 @@ $border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 2;
+    z-index: 9999 !important;
+    position: fixed !important;
   }
 
   .oneBlock {
@@ -608,7 +609,6 @@ $border-radius: 20px;
       background-color: rgba(0, 0, 0, 0);
     }
   }
-
 }
 
 .btnAllCitys {

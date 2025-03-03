@@ -19,7 +19,6 @@ export default () => {
     };
   }, []);
 
-
   return (
     <div className='containerThreeBlock'>
       <p className='textHeader'>

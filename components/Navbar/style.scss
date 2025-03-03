@@ -48,23 +48,24 @@
 }
 
 .openMenuNur {
-  position: absolute !important;
+  position: fixed !important;
   width: 100%;
   border-radius: 10px 0 0 10px;
   background-color: rgba(0, 0, 0, 0.582);
   height: 900px;
-  margin-top: 25px;
-  z-index: 9;
+  margin-top: 5px;
+  z-index: 0 !important;
 
   .openMenu {
     width: 50%;
     border-radius: 10px 0 0 10px;
     background-color: gold;
     height: 136px;
-    margin-top: 20px;
+    margin-top: 120px !important;
     margin-left: 50%;
     padding-top: 10px;
     padding-bottom: 30px;
+    z-index: -10 !important;
 
     .blockOne {
       width: 90%;
@@ -83,11 +84,17 @@
   }
 }
 
+.newBlockNew {
+  background-color: red !important;
+}
+
 
 
 .containerMobileNav {
   display: flex;
   justify-content: space-between;
+  position: fixed !important;
+  z-index: 999px !important;
 
   .imgLogo {
     width: 50%;
@@ -113,6 +120,11 @@
   }
 }
 
+.newNavbarOpenIsMenu {
+  z-index: -12 !important;
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   .containerNav { 
     width: 90% !important;
@@ -121,10 +133,8 @@
 
 @media screen and (max-width: 500px) {
   .containerNav { 
-    position: fixed !important;
     width: 100% !important;
     height: 80px !important;
-    background-color: gold;
-    z-index: 15 !important;
+    background-color: rgb(255, 251, 0);
   }
 }

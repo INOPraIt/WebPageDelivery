@@ -23,9 +23,10 @@ export default () => {
   }, []);
 
   return (
-    <div className='containerNav'>
+    <>
+     <div className='containerNav'>
       {screenWidth < 500 ?
-        <div>
+        <div className='newBlockNew'>
           <div className='containerMobileNav'>
             <div className='imgLogo'>
               <img
@@ -40,22 +41,7 @@ export default () => {
               />
             </div>
           </div>
-          {menus &&
-            <div className='openMenuNur' onClick={() => setMenus(false)}>
-              <div className='openMenu'>
-                <a href='#preimush' style={{ textDecoration: 'none', color: 'black' }}>
-                  <div className='blockOne' onClick={() => setMenus(false)}>
-                    преимущества
-                  </div>
-                </a>
-                <a href='https://forms.yandex.ru/surveys/13473027.d9624a4d2f23983de8292d18a8f1eda70cd24de3/' style={{ textDecoration: 'none', color: 'black' }}>
-                  <div className='blockOne' onClick={() => setMenus(false)}>
-                    свяжитесь с нами
-                  </div>
-                </a>
-              </div>
-            </div>
-          }
+          
 
         </div>
         :
@@ -81,6 +67,29 @@ export default () => {
           </div>
         </>
       }
+      
+        
     </div>
+
+    <div className='newNavbarOpenIsMenu'>
+      {menus &&
+            <div className='openMenuNur' onClick={() => setMenus(false)}>
+              <div className='openMenu'>
+                <a href='#preimush' style={{ textDecoration: 'none', color: 'black' }}>
+                  <div className='blockOne' onClick={() => setMenus(false)}>
+                    преимущества
+                  </div>
+                </a>
+                <a href='https://forms.yandex.ru/surveys/13473027.d9624a4d2f23983de8292d18a8f1eda70cd24de3/' style={{ textDecoration: 'none', color: 'black' }}>
+                  <div className='blockOne' onClick={() => setMenus(false)}>
+                    свяжитесь с нами
+                  </div>
+                </a>
+              </div>
+            </div>
+          }
+      </div>
+    </>
+   
   )
 }
