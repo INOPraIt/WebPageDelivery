@@ -1,5 +1,45 @@
-@import url('https://db.onlinewebfonts.com/c/23a02e8af5ef33a9b496dd524401550f?family=YS+Text+Regular+Regular');
 
+@font-face {
+  font-family: 'YFO';
+  src: url('../../assets/fonts/text-geo-black.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFT';
+  src: url('../../assets/fonts/text-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFTh';
+  src: url('../../assets/fonts/text-geo-heavy.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFF';
+  src: url('../../assets/fonts/text-geo-medium.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFFi';
+  src: url('../../assets/fonts/text-geo-bold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YFS';
+  src: url('../../assets/fonts/text-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .containerNav {
   background-color: rgb(255, 250, 246);
   z-index: 15 !important;
@@ -17,7 +57,7 @@
     margin-left: 5%;
 
     .linkNavbar {
-      font-family: "YS Text Regular Regular";
+      font-family: "YFS";
       font-weight: 600;
       font-size: 17px;
       color: black;
@@ -38,7 +78,7 @@
       height: 45px;
       border-radius: 15px;
       text-align: center;
-      font-family: "YS Text Regular Regular";
+      font-family: "YFS";
       font-weight: 700;
       font-size: 20px;
     }

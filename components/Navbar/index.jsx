@@ -24,7 +24,7 @@ export default () => {
 
   return (
     <>
-     <div className='containerNav'>
+    <div className='containerNav'>
       {screenWidth < 500 ?
         <div className='newBlockNew'>
           <div className='containerMobileNav'>
@@ -41,8 +41,6 @@ export default () => {
               />
             </div>
           </div>
-          
-
         </div>
         :
         <>
