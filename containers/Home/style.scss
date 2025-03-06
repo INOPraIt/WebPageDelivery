@@ -125,7 +125,7 @@ $border-radius: 20px;
           height: 70px;
           font-size: 25px;
           font-weight: 700;
-          margin-top: 80px;
+          margin-top: 120px;
           border: none;
           border-radius: 20px;
         }
@@ -389,7 +389,7 @@ $border-radius: 20px;
     position: absolute;
     z-index: 3;
     background-color: rgb(254, 216, 0);
-    margin-top: -70px;
+    margin-top: -70px !important;
     border-radius: 50px 50px 0 0 ;
     width: 100%;
     padding-bottom: 200px;
@@ -436,7 +436,7 @@ $border-radius: 20px;
 
     .btnsLink {
       position: absolute;
-      margin-top: 450px;
+      margin-top: 470px;
 
 
       .btnTextLink {
@@ -595,7 +595,7 @@ $border-radius: 20px;
 
   .btnsLink {
     position: absolute;
-    margin-top: 380px !important;
+    margin-top: 400px !important;
 
     .btnTextLink {
       height: 60px;

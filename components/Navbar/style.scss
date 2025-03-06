@@ -92,7 +92,7 @@
   width: 100%;
   border-radius: 10px 0 0 10px;
   background-color: rgba(0, 0, 0, 0.582);
-  height: 900px;
+  height: 1900px;
   margin-top: 5px;
   z-index: 0 !important;
 
@@ -117,7 +117,7 @@
       align-items: center;
       padding-left: 10px;
       color: black;
-      font-family: "YS Text Regular Regular";
+      font-family: "YFS";
       font-weight: 500;
       border-radius: 10px 0 0 10px;
     }
@@ -127,8 +127,6 @@
 .newBlockNew {
   background-color: red !important;
 }
-
-
 
 .containerMobileNav {
   display: flex;
